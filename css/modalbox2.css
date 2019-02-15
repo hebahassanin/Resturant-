@@ -1,0 +1,96 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.myImg{
+    
+    cursor: pointer;
+  
+}
+
+/*
+#myImg:hover{
+    opacity: 0.7;
+}
+*/
+
+/* The Modal (background) */
+.modal2{
+    display: none;
+    position: fixed;
+    width: 50%;
+    height: 50%;
+    z-index: 1;
+    top:30%;
+    left:30%;
+    margin: auto;
+    padding-top: 100px;
+    overflow: auto;
+    background: rgba(0,0, 0, 0.9)
+
+}
+
+/* Modal Content (image) */
+.modal-content2{
+    display: block;
+    width: 80%;
+    margin: auto;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    width: 80%;
+    max-width: 700px;
+    display: block;
+    text-align: center;
+    color:#bbb;
+    padding: 10px 0;
+    height: 150px;
+
+
+}
+
+/* The Close Button */
+.close{
+    position: absolute;
+    top:15px;
+    right:35px;
+    font-size: 40px;
+    font-weight: bold;
+    color:#f1f1f1;
+    transition: 0.3s;
+    
+}
+
+.close:hover ,.close:focus{
+    color:#bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Add Animation */
+.modal-content2, #caption {  
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom{
+    from{-webkit-transform: scale(0)}
+    to{-webkit-transform: scale(1)}
+}
+
+@keyframes zoom{
+    from{transform: scale(0)}
+    to{transform: scale(1)}
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+      width: 100%;
+    }
+}

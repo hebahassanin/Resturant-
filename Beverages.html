@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tasty</title>
+    <link rel="stylesheet" href="css/Style.css">
+    <link rel="stylesheet" href="css/Modalbox.css">
+
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+  <script src="js/main.js"></script>
+  
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+               <a href="index.html">Tasty</a>
+            </div>
+
+            <nav>
+                <ul class="mainmenu">
+                    <li><a href="index.html" title="Home">home</a></li>
+                    <li>
+                        <a href="about.html" title="About">About</a>
+                    </li>
+
+                    <li>
+                        <a href="menu.html" title="Menu">menu</a>
+
+                        <ul class="sub-menu">
+                            <li>
+                             <a href="burger.html" title="burgers">burgers</a>
+                              </li>
+     
+                              <li>
+                                  <a href="chicken.html"title="Chickens">Chickens</a>
+                              </li>
+     
+                              <li>
+                                 <a href="Salads.html"title="Salades">Salades</a>
+                             </li>
+                             <li>
+                                 <a href="Beverages.html"title="Beverages">Beverages</a>
+                             </li>
+                             <li>
+                                 <a href="Desserts.html"title="Desserts">Desserts</a>
+                             </li>
+                             </ul>
+                             
+                    </li>
+                    <li><a href="Promotions.html" title="Promotions">Promotions</a></li>
+                    <li><a href="ContactUs.html" title="Contact us">contact us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="containerfluid">
+        <div class="container">
+            <h2 class="menutitle">
+                <span>Beverages</span>  </h2>
+            <div id="fooditems">
+                <div class="item">
+                    <img src="img/03156-2-CapriSun-700x360_CR.jpg" class="myImg" title="Apple Juice"
+                    alt="100% real apple juice from concentrate with added ingredients.
+                       All natural beverage containing no preservatives.">
+                    <h3>Apple Juice</h3>
+                </div>    
+
+                <div class="item">
+                    <img src="img/03156-2-CocaCola-700x360_CR.jpg" class="myImg" title="Coca-Cola"
+                    alt="Perfect with any meal, enjoy the genuine taste of Coca-Cola®.
+                    © The Coca-Cola Company.Coca-Cola  is a registered trademark of The Coca-Cola Company.">
+                    <h3>Coca-Cola</h3>
+                    </div>
+
+                <div class="item">
+                   <img src="img/03156-2-DietCoke-700x360_CR.jpg" class="myImg" title="Diet Coke"
+                   alt="Try a crisp and refreshing no-calorie Diet Coke®.
+                   © The Coca-Cola Company .Diet Coke is a registered trademark of The Coca-Cola Compan">
+                   <h3>Diet Coke</h3>
+                </div>
+
+                <div class="item">
+                  <img src="img/03156-2-FrostedFrozenCoke-700x360_CR.jpg" class="myImg" title="Frosted Frozen Coke"
+                  alt="ool down with a Frosted Frozen Coke®. It’s a cool and refreshing blend of Frozen Coke®
+                   and soft serve.
+                   *Nutrition information reflects Medium Size Cup.
+                  © The Coca-Cola Company .Coke is a registered trademark of The Coca-Cola Company.">
+                    <h3>Frosted Frozen Coke</h3>
+                    </div>
+
+                <div class="item">
+                    <img src="img/03156-2-IcedTea-700x360_CR.jpg" class="myImg" title="Iced Tea"
+                    alt="Iced Tea The perfect way to stay refreshed.
+                    Brewed fresh daily, our Iced Tea pairs seamlessly with many menu favorites.
+                     Also available in unsweetened iced tea.">
+                    <h3>Iced Tea</h3>
+                    </div>
+
+                <div class="item">
+                      <img src="img/03156-2-MinuteMaidLemonade-700x360_CR.jpg" class="myImg" title="Lemonda"
+                      alt="Enjoy a Minute Maid® Lemonade, a simple and refreshing classic.
+                      © The Coca-Cola Company .Minute Maid is a registered trademark of The Coca-Cola Company.">
+                      <h3>Lemonda</h3>
+                     </div>
+
+                <div class="item">
+                       <img src="img/03156-2-NestleWater-700x360_CR.png" class="myImg" title="Nestle Water"
+                       alt="Nestlé® Pure Life® Purified Water .">
+                       <h3>Nestle Water</h3>
+                       </div>
+
+
+                <div class="item">
+                  <img src="img/03156-2-MinuteMaidOrangeJuice-700x360_CR.jpg" class="myImg" title="Orange Juice"
+                  alt="Minute Maid® Orange Juice explodes with flavor and is a good source of Vitamin C.
+                  © The Coca-Cola Company .Minute Maid and Put Good In .Get Good Out .are registered trademarks
+                   of The Coca-Cola Company.">
+                  <h3>Orange Juice</h3>
+            </div>
+
+              <div class="item">
+                <img src="img/03156-2-ICEE-700x360_CR.jpg" class="myImg" title="Fanta Cherry Ice"
+                alt="Frozen Fanta Cherry ICEE® Sweet & refreshing .Cool down with a Frozen Fanta Cherry ICEE® any time
+                 of the year.
+                © ICEE is a federally registered trademark.">
+                <h3>Fanta Cherry Ice</h3>
+             </div>
+     
+
+            </div>
+
+            <!-- The Modal -->
+            <div class="modal" id="myModal">
+                <span class="close">&times;</span>
+                <img   class="modal-content" id="img01">
+                <div id="caption"> </div>
+            </div>
+        
+        </div>
+    </section>
+
+    <footer>
+         Copyright &copy; 2018 TASTY. All rights reserved.
+    </footer>
+
+
+    <script src="js/script.js"></script>
+    </body>
+    </html>
